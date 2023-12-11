@@ -106,15 +106,7 @@ form {
   text-align: center;
   font-size: 25px;
 }
-/*
-.App {
-  display: flex;
-  justify-content: center;
-  margin-left: 50%;
-  margin-right: 50%;
-  padding: 1px 16px;
-}
-*/
+
 span {
   color: red;
   font-size: 15px;
@@ -154,8 +146,4 @@ span {
 
 #btn {
   font-size: 20px;
-}
-
-.testi {
-  color: white;
 }

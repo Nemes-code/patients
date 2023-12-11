@@ -1,6 +1,5 @@
 import "../index.css";
 import React, { useState } from "react";
-import MainLayout from "../Components/Header";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { Stack } from "@mui/material";
@@ -26,7 +25,6 @@ function Customers() {
   };
   return (
     <div className="App">
-      <MainLayout />
       <div>
         <div id="info">
           <Stack direction="row" spacing={2}>
