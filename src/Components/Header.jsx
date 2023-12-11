@@ -1,12 +1,16 @@
-import React from 'react'
-import './App.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../index.css";
 
 const Header = () => {
   return (
-    <div id='header'>
-        <h1> Record Keeping </h1>
-    </div>
-  )
-}
+    <nav className="navbar navbar-light bg-primary">
+      <div id="header">
+        <Link to="/">Customers</Link>
+        <Link to="/stock">Stock</Link>
+      </div>
+    </nav>
+  );
+};
 
-export default Header
+export default Header;
